@@ -1,7 +1,7 @@
 # learn-kubernetes
 
 
-## the home-lab cluter
+## the home-lab cluster
 
 ```bash
 ❯ k get nodes -o wide
