@@ -17,3 +17,10 @@ raspberrypi5          Ready    control-plane,master   123d   v1.32.6+k3s1   192.
 ## static IP addresses 
 added to router config, now nodes will remain IP locked
 also added regular and short "aliases" into `/etc/hosts` easy fast access and refs
+
+```
+# raspberry pi cluster
+192.168.1.136   raspberrypi5        rpi5
+192.168.1.129   raspberrypi4worker1 rpi4w1
+192.168.1.83    raspberrypi4worker2 rpi4w2
+```
