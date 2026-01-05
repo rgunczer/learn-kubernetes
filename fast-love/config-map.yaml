@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: love-config
+data:
+  APP_BG_COLOR: green
+  APP_FG_COLOR: white
+  APP_TEXT_COLOR: yellow
