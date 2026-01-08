@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: fast-love-deployment
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: fast-love-label
+  template:
+    metadata:
+      labels:
+        app: fast-love-label
+    spec:
+      containers:
+        - name: fast-love-container
+          image: rgunczer/fast-love-node-app
+          env:
+            - name: BG_COLOR
+              value: GRAY
