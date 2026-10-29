@@ -17,7 +17,7 @@ app.get('/', (req, res) => {
     </style>
 </head>
 <body>
-   <h1>Hello from a NodeJS server</h1> 
+   <h1>Hello from a NodeJS server (fast-love)</h1> 
 </body>
 </html>
   `;
@@ -25,7 +25,7 @@ app.get('/', (req, res) => {
 })
 
 app.listen(port, () => {
-  console.log(`Example app listening on port ${port}`)
+  console.log(`Fast-Love app listening on port ${port}`)
   console.log(`BG_COLOR is [${process.env.BG_COLOR || defaultColor}]`)
 })
 

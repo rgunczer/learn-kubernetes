@@ -1,6 +1,6 @@
-FROM node:24.12-trixie-slim
+FROM node:24-trixie-slim
 
-WORKDIR /my-app
+WORKDIR /fast-love
 
 COPY . .
 
